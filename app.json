@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "appCrudForm",
     "name": "app_crud_form",
     "slug": "app_crud_form",
     "version": "1.0.0",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
